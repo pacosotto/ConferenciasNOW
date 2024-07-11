@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: System-ui;
+}
+.container {
+  position: fixed;
+  bottom: 12%;
+  right: 1%;
+  background: #fff;
+  width: 500px;
+  height: 300px;
+  border: 1px solid #4645455d;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+.container-carrito:hover {
+  background: #86858544;
+  cursor: pointer;
+}
+.borrar-conferencia {
+  text-decoration: none;
+  background: red;
+  border-radius: 50px;
+  padding: 2px 8px;
+  font-weight: 600;
+  color: #fff;
+}
+.borrar-conferencia:hover {
+  background: rgb(197, 0, 0);
+}
+.container-ver {
+  display: none;
+}
+.container-carrito {
+  background: #fff;
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
+  border: 1px solid #4645455d;
+  padding: 1px 16px;
+  border-radius: 40px;
+}
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #282828;
+  color: #fff;
+}
+.navegacion {
+  display: flex;
+  gap: 20px;
+}
+.navegacion a {
+  text-decoration: none;
+  color: #fff;
+}
+#seccion-bienvenida {
+  background: whitesmoke;
+  padding: 10px;
+}
+#seccion-bienvenida h1 {
+  margin: 0;
+}
+#seccion-conferencias {
+  background: lightgrey;
+  padding: 10px;
+}
+#seccion-conferencias h2 {
+  margin: 0;
+}
+#seccion-contacto {
+  background: whitesmoke;
+  padding: 10px;
+}
+#seccion-contacto h2 {
+  margin: 0;
+}
+#conferencias {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.container-conferencia {
+  border: 1px solid #3d3b3b38;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.container-conferencia h4 {
+  font-weight: 500;
+}
+.container-conferencia p {
+  font-size: 0.8rem;
+}
+.container-conferencia:hover {
+  background: rgba(0, 26, 255, 0.062);
+}
+.container-conferencia button {
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #5e5d5d8a;
+  font-size: 0.9rem;
+  color: rgb(92, 91, 91);
+  margin-top: 10px;
+}
+.container-formulario {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 10px;
+  padding: 100px;
+}
+#formulario input,
+textarea {
+  width: 400px;
+  margin-bottom: 10px;
+}
+#pie {
+  background: lightgrey;
+  display: flex;
+  justify-content: center;
+  color: #8d8686;
+}

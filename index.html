@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>ConferenciasNOW</title>
+  </head>
+  <body>
+    <div class="container container-ver">
+      <div id="carrito">
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Día</th>
+              <th>Hora</th>
+              <th>Presentador</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="container-carrito">
+      <p>🛒</p>
+    </div>
+    <nav class="navBar">
+      <h4>ConferenciasNOW</h4>
+      <ul class="navegacion">
+        <a href="#">Inicio</a>
+        <a href="#">Conferencias</a>
+        <a href="#">Contacto</a>
+      </ul>
+    </nav>
+    <section id="seccion-bienvenida">
+      <h1>ConferenciasNOW</h1>
+      <p>
+        El sitio ideal para encontrar
+        <strong>las conferencias de más alto nivel del país,</strong> inscríbete
+        a las <strong>conferencias gratuitas</strong> de la forma más
+        <strong>fácil y rápida</strong>
+      </p>
+    </section>
+    <main>
+      <section id="seccion-conferencias">
+        <h2>Conferencias</h2>
+        <div id="conferencias"></div>
+      </section>
+      <section id="seccion-contacto">
+        <div class="container-formulario">
+          <h2>Contacto</h2>
+          <form id="formulario">
+            <label for="nombre">Nombre: </label><br />
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Ingresa tu nombre"
+            />
+            <br />
+            <label for="correo">Email: </label><br />
+            <input
+              type="email"
+              name="correo"
+              id="correo"
+              placeholder="Ingresa tu correo electronico"
+            />
+            <br />
+            <label for="mensaje">Mensaje: </label><br />
+            <textarea
+              type="text"
+              name="mensaje"
+              id="mensaje"
+              placeholder="Ingresa tu mensaje"
+            ></textarea>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer id="pie">
+      <p>Creado por pacosotto</p>
+    </footer>
+
+    <script src="js/db.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
